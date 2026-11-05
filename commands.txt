@@ -1,0 +1,5 @@
+# ECE-042 commands — process in file order
+LOAD_TAGS|tags.csv
+PROCESS_EVENTS|reads.csv|recharges.csv|passes.csv
+PRINT_DAILY_COLLECTION|2026-10-01|2026-10-31
+PRINT_STATEMENTS|2026-10
